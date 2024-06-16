@@ -1,0 +1,31 @@
+{
+  "name": "cadprodutoscookies",
+  "version": "1.0.0",
+  "description": "Cadastrar Produtos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BnoCavalheiro/CadProdutosCookies.git"
+  },
+  "keywords": [
+    "HTTP",
+    "POST",
+    "validação"
+  ],
+  "author": "Bruno Cavalheiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BnoCavalheiro/CadProdutosCookies/issues"
+  },
+  "homepage": "https://github.com/BnoCavalheiro/CadProdutosCookies#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0"
+  }
+}
